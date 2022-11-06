@@ -89,3 +89,5 @@ else:
     buttonFrame = tk.Frame(root, bg='#ddd')
     ttk.Button(buttonFrame, text='Remove all', command=removeAll).pack(side='left', ipadx=30, ipady=10, padx=50)
     buttonFrame.pack(padx=10, pady=10)
+
+    root.mainloop()
